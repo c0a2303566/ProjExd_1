@@ -36,7 +36,7 @@ def main():
             mx = +2
         else:
             mx = 0
-        # img_rct.move_ip((mx, my))
+        img_rct.move_ip((mx, my))
         
         x = -(tmr%3200)
         screen.blit(bg_img, [x, 0])
